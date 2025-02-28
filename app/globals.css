@@ -22,3 +22,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+@layer components {
+  .image-size {
+    @apply w-40 h-40 lg:w-50 lg:h-50;
+  }
+
+  .image-bg {
+    @apply bg-white/30 text-black/30 hover:bg-gradient-to-br hover:from-[#e9b8a6]/30 hover:to-[#9e84d6]/30 hover:text-black/60 border-white/20;
+  }
+}
