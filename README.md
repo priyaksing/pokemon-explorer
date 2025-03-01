@@ -10,9 +10,10 @@ Project Setup:
 git clone https://github.com/priyaksing/pokemon-explorer.git
 ```
 
-- Install the dependencies
+- Go to the project directory and install the dependencies
 
 ```bash
+cd pokemon-explorer
 npm install
 ```
 
